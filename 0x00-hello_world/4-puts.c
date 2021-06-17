@@ -1,5 +1,5 @@
 #include <stdio.h>
-/* Main function , showing use of puts command */
+/*main - main block*/
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
