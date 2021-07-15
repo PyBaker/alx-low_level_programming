@@ -1,5 +1,11 @@
-#ifndef _HOLBERTON_H_
-#define _HOLBERTON_H_
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
+
+/**
+ * Auth: Brennan D Baraban
+ * Desc: Header file containing prototypes for all functions
+ *       used in the 0x0B-more_malloc_free directory.
+ */
 
 int _putchar(char c);
 void *malloc_checked(unsigned int b);
