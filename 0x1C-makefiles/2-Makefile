@@ -1,0 +1,17 @@
+
+CC = gcc
+SRC = .c
+OBJ = .o
+NAME = holberton
+
+all :  main$(OBJ) holberton$(OBJ) m.h
+	$(CC) main$(OBJ) holberton$(OBJ) -o $(NAME)
+
+main$(OBJ): main$(SRC)
+	$(CC) -c -o main$(OBJ) main$(SRC)
+
+holberton$(OBJ): holberton$(SRC)
+	$(CC) -c -o holberton$(OBJ) holberton$(SRC)
+
+
+
